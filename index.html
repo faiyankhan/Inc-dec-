@@ -7,7 +7,21 @@
     <link rel="stylesheet" href="./styles.css"/>
 </head>
 <body>
-    
+    <div class="card" id="card">
+        <img src="./images/Campus.jpg" class="product-img" />
+        <h2 class="product-title">Campus Shoes</h2>
+        <p class="product-description">Campus Hurricane Men's Running Walking Gym Shoes | Men's Shoes with Breathable Mesh  </p>
+        <p class="product-price">Price: ₹799</p>
+
+        <div class="quantity-container">
+            <img src="./images/remove.png" class="quantity-icon" onclick="dec()"/>
+            <span id="quantity">1</span>
+            <img src="./images/plus.png" class="quantity-icon" onclick="inc()"/>
+
+        </div>
+
+        <button type="button" class="btn-buyNow">BuyNow</button>
+    </div>
     <script src="./scripts.js"></script>
 </body>
 </html>
