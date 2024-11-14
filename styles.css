@@ -24,3 +24,38 @@
     text-align: center;
     font-weight: bold;
 }
+
+.btn-buyNow{
+    background-color:#00e600;
+    color: white;
+    border: none;
+    display: block;
+    padding: 8px 60px;
+    font-weight: bold;
+    margin: 10px auto;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-buyNow:hover{
+    background-color: #009900;
+    transition: 0.3s;
+}
+
+.quantity-icon{
+    height: 25px;
+    margin: 5px 15px;
+    cursor: pointer;
+}
+
+.quantity-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.product-description{
+    margin: 10px;
+    text-align: center;
+}
